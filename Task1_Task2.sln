@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1Model", "Task1Model\Task1Model.dwproj", "{2732B1A0-62FD-4042-B94D-F20322B2A48E}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2ETL", "Task2ETL\Task2ETL.dtproj", "{41C1A983-CB45-451B-AAC5-20540EAB281A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -13,6 +15,8 @@ Global
 		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.ActiveCfg = Development
 		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.Build.0 = Development
 		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.Deploy.0 = Development
+		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.ActiveCfg = Development
+		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/8/2017 12:00:22 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PMATOS-SAD0"
+  DTS:CreatorName="PMATOS-SAD0\sad"
+  DTS:DTSID="{0919FA8D-401B-4DDF-9789-70BF3ADB4590}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.60"
+  DTS:LocaleID="2070"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{87C8E3ED-27B4-43EB-ACC9-E11EEB617D42}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
