@@ -3,24 +3,6 @@
   <MeasureGroups>
     <MeasureGroup>
       <ID>Measure Group 1</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="039b5e90-c514-4c62-a872-856917a944c7">
-          <ID>Measure Group 1</ID>
-          <Name>Measure Group 1</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="TableBinding" dwd:design-time-name="537e5b72-95b5-4f8b-a764-a667bfe122f0">
-            <DataSourceID>DataWarehouseETL</DataSourceID>
-            <DbSchemaName>dbo</DbSchemaName>
-            <DbTableName>Measure_Group_1</DbTableName>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

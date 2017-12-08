@@ -42,27 +42,27 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e376cd92-7436-42ee-b0b8-b4ee7421cb77">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="23e27c85-df8a-43a7-a985-ca90530515a2">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="b9fc68cd-9453-4ff3-9968-df02ecb652de">
+    <Attribute dwd:design-time-name="75a1d8de-c293-458c-815e-2cb440891aae">
       <ID>DimResellers</ID>
       <Name>DimResellers</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4a58a2d1-d9d5-47f9-a78e-f2bec151ce47">
+        <KeyColumn dwd:design-time-name="e87e3bfb-e40e-4aa7-ada3-42932ef0ad63">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="582f9ae6-4199-4826-97cc-3d3c8279afeb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="530f631c-96d3-429a-b437-24c329956503">
             <TableID>DimResellers</TableID>
             <ColumnID>DimResellers</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="498b033e-2cf5-43ba-b4b9-a132d056f2de">
+      <NameColumn dwd:design-time-name="e8e27130-edd9-4b36-b921-b8b431029319">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="956c4e88-9c96-4688-b031-dff9e95b5e00">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a47d6dc5-a4b9-4bc8-bbfe-fbfb98a349b4">
           <TableID>DimResellers</TableID>
           <ColumnID>DimResellers_Name</ColumnID>
         </Source>
