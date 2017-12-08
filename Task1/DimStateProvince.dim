@@ -130,45 +130,45 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e62fada1-fdde-4d67-b746-466120aa008f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="35ef7543-9c2e-46bb-979e-60e3bd92ed58">
     <DataSourceViewID>Task1</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="f7d15ccf-56f8-45d1-bfac-e4629cfeb92e">
+    <Attribute dwd:design-time-name="7d658446-160f-465d-828c-2fcfa0fcefd7">
       <ID>DimStateProvince</ID>
       <Name>DimStateProvince</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="13b33f09-c2bb-4f04-b84b-6418e313425d">
+        <KeyColumn dwd:design-time-name="e6f787d1-fc4e-4681-8610-f3961398e83b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4958b1c-10d7-4ace-8ad2-0479c59d8308">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42262117-1179-43cb-b845-4d77fe373aed">
             <TableID>DimStateProvince</TableID>
             <ColumnID>DimStateProvince</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="625a373f-e0ad-4e82-a547-0ca57e6767cc">
+      <NameColumn dwd:design-time-name="4e241feb-b469-480d-8f05-356a051610cb">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8cc01290-b77c-4050-86c1-257a6c7902c7">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7f14f50f-4c37-42e9-9bb2-020f2197f75a">
           <TableID>DimStateProvince</TableID>
           <ColumnID>DimStateProvince_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4a86fb0b-4557-4607-b7a3-99a8afbb171a">
+        <AttributeRelationship dwd:design-time-name="a0843ae7-8a6e-4e1b-abe6-15868ff0ca99">
           <AttributeID>Dim State Province Name</AttributeID>
           <Name>StateProvinceName</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b9e636c1-995b-4e8e-8dc2-f2623a943734">
+        <AttributeRelationship dwd:design-time-name="53db72e8-b7e5-4ea0-8008-00afbb03b036">
           <AttributeID>StateProvinceCode</AttributeID>
           <Name>StateProvinceCode</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cd265da8-1cfc-4edc-92bf-a7bf3df29e8d">
+        <AttributeRelationship dwd:design-time-name="4992d2fa-1f18-48ae-80ad-3f40bd340e6c">
           <AttributeID>StateProvinceCode 1</AttributeID>
           <Name>FK_Country</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="76f3e0fb-734d-4aac-beca-e5f5c68d2b9b">
+        <AttributeRelationship dwd:design-time-name="db921ef9-e6d0-4f85-aa7a-66ee4edf203a">
           <AttributeID>FK_TerritoryID</AttributeID>
           <Name>FK_TerritoryID</Name>
         </AttributeRelationship>
@@ -176,14 +176,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="63179982-92e9-408c-8dfc-67a01cdde5db">
+    <Attribute dwd:design-time-name="c5f89186-1e1a-4118-bb4b-631e134c20e7">
       <ID>Dim State Province Name</ID>
       <Name>StateProvinceName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2946750e-fdc3-4aff-9817-e77394c48d40">
+        <KeyColumn dwd:design-time-name="69844405-5c09-4192-b6bc-dad0d8dd1d62">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e392b0d-4fa5-43d1-98d5-700da3e0f46f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3751a8c-9cc6-432c-b45c-fdc6620f1341">
             <TableID>DimStateProvince</TableID>
             <ColumnID>DimStateProvince_Name</ColumnID>
           </Source>
@@ -192,14 +192,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a0c4f908-e17e-44bc-beab-b093d8fa43d2">
+    <Attribute dwd:design-time-name="0d930f9a-e023-41dd-aeba-7468ba1585c9">
       <ID>StateProvinceCode</ID>
       <Name>StateProvinceCode</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ea7cf8fb-8a90-44b0-8c08-93d2e480e27d">
+        <KeyColumn dwd:design-time-name="6b493057-a372-4df4-bc83-83f6172d1221">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac1be799-510e-4134-bdb4-44bf3bb44c87">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1ec5eac-91ab-4ed2-be92-a8495481a61e">
             <TableID>DimStateProvince</TableID>
             <ColumnID>StateProvinceCode</ColumnID>
           </Source>
@@ -208,14 +208,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2b117dcc-7ba5-4c2f-8b6b-fd71de8fd666">
+    <Attribute dwd:design-time-name="1fdb3c9b-fb78-4ee4-ab2b-c148511d0794">
       <ID>StateProvinceCode 1</ID>
       <Name>FK_Country</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7c9d065e-e9bc-499b-92bf-bc22b399cae5">
+        <KeyColumn dwd:design-time-name="70750a6f-193c-4e2f-8557-6d2d309e708b">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f167f5d-4790-46b3-8052-a7c30c581710">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd6c5cc2-26ff-41e7-8539-e026ef27ef9d">
             <TableID>DimStateProvince</TableID>
             <ColumnID>FK_Country</ColumnID>
           </Source>
@@ -224,13 +224,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9eedf71c-d078-46f1-bf66-405a40acdc2a">
+    <Attribute dwd:design-time-name="2ab26000-3fe8-403e-b32d-728fd97de8ae">
       <ID>FK_TerritoryID</ID>
       <Name>FK_TerritoryID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e67d8829-0e64-4e90-9a6f-bcc77005f852">
+        <KeyColumn dwd:design-time-name="ccde662e-d481-4292-9196-7eb49ee223a2">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e07412b-35df-46ca-9e9d-18cb7b811f13">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3639dc5f-d7d5-4f4a-a493-a32ef4ff8f70">
             <TableID>DimStateProvince</TableID>
             <ColumnID>FK_TerritoryID</ColumnID>
           </Source>

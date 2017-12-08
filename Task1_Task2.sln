@@ -9,6 +9,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2ETL", "Task2ETL\Task2E
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1", "Task1\Task1.dwproj", "{772256AE-636B-4A0E-B98C-A06143C25E19}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2", "Task2\Task2.dtproj", "{96D36218-BD60-4213-905A-5BC44B5A1FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -22,6 +24,8 @@ Global
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.ActiveCfg = Development
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Build.0 = Development
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Deploy.0 = Development
+		{96D36218-BD60-4213-905A-5BC44B5A1FEC}.Development|Default.ActiveCfg = Development
+		{96D36218-BD60-4213-905A-5BC44B5A1FEC}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
