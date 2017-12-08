@@ -4,14 +4,14 @@
     <MeasureGroup>
       <ID>Measure Group 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="003a0b66-2327-4974-b7b2-3e16d724e977">
+        <Partition dwd:design-time-name="35c8b531-0f10-4cf9-bc2f-d51b885a75ad">
           <ID>Measure Group 1</ID>
           <Name>Measure Group 1</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="TableBinding" dwd:design-time-name="612b9f2c-1dba-46c6-a5c8-8ff54f537163">
+          <Source xsi:type="TableBinding" dwd:design-time-name="01d79d79-eb03-45d4-9771-a01918613f65">
             <DataSourceID>DataWarehouseETL</DataSourceID>
             <DbSchemaName>dbo</DbSchemaName>
             <DbTableName>Measure_Group_1</DbTableName>
