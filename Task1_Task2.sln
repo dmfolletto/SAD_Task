@@ -7,6 +7,8 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1Model", "Task1Model\Ta
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2ETL", "Task2ETL\Task2ETL.dtproj", "{41C1A983-CB45-451B-AAC5-20540EAB281A}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1", "Task1\Task1.dwproj", "{772256AE-636B-4A0E-B98C-A06143C25E19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -17,11 +19,14 @@ Global
 		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.Deploy.0 = Development
 		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.ActiveCfg = Development
 		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.Build.0 = Development
+		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.ActiveCfg = Development
+		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Build.0 = Development
+		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CC3383A7-52F9-43AE-9445-1BCF8082B6D7}
+		SolutionGuid = {FD8A1F3E-F47B-4DEC-A388-CDC5099F3090}
 	EndGlobalSection
 EndGlobal
