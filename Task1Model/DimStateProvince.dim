@@ -1,0 +1,182 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="10aaecf1-61ef-4ea5-9a68-003db66fe7e2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DimStateProvince</ID>
+  <Name>DimStateProvince</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3551" scrolltop="-9909" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3889" y="21167" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimStateProvince" left="-1356" top="-4207" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="3255" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00000e110000b70c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimStateProvince" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3551</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9909</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1356</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4207</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ca3390ef-d391-42a6-b0c6-b41cdfb2294d">
+    <DataSourceViewID>Task1Model</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d072c1fc-a190-4933-bb62-5a7aad9e81e7">
+      <ID>DimStateProvince</ID>
+      <Name>DimStateProvince</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f7caae57-d0db-4241-aba2-c311b60a0066">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db85dc4d-a814-4195-a6ff-c2c70beb9043">
+            <TableID>DimStateProvince</TableID>
+            <ColumnID>DimStateProvince</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e3ddd8a9-e928-44a5-86aa-7abb5099c504">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2f4d2e45-fa45-4d18-a4a2-7d67c8961b59">
+          <TableID>DimStateProvince</TableID>
+          <ColumnID>DimStateProvince_Name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f56b2488-3626-43df-b8b3-9f5b9ad8ef50">
+          <AttributeID>Dim State Province Name 1</AttributeID>
+          <Name>StateProvinceName</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74921759-9134-4a03-9271-7d242bf240ee">
+          <AttributeID>StateProvinceCode</AttributeID>
+          <Name>StateProvinceCode</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6ccb0f0-18e4-4b61-881a-991a06ce1fa0">
+          <AttributeID>FK_Country</AttributeID>
+          <Name>FK_Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0dffe997-b518-4a43-a633-0ae7dc49e77b">
+          <AttributeID>FK_TerritoryID</AttributeID>
+          <Name>FK_TerritoryID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2e6fdbfb-d8c7-44cd-8aa3-95cb28cc12ff">
+      <ID>Dim State Province Name 1</ID>
+      <Name>StateProvinceName</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="21f6c8eb-fac6-45e4-a48e-a0b929a2e788">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27d79770-ba59-4353-868b-cf9a706dc20e">
+            <TableID>DimStateProvince</TableID>
+            <ColumnID>DimStateProvince_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61eb74b1-6130-43c7-818d-ac64e871f50e">
+      <ID>StateProvinceCode</ID>
+      <Name>StateProvinceCode</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d4adaf9-1c07-4fab-b064-5a8f517852a5">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="561cc398-c83c-44de-a2eb-c8ceef46454f">
+            <TableID>DimStateProvince</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7238fdaa-c6f7-43f4-8bed-76d6a3f632a0">
+      <ID>FK_Country</ID>
+      <Name>FK_Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc988597-43bf-4bd5-a663-b7d13e9e1f96">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a4c8e517-d0aa-43ae-b60a-2d556744cb42">
+            <TableID>DimStateProvince</TableID>
+            <ColumnID>FK_Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e29404f3-9e2b-4939-a6fd-707c447a5e42">
+      <ID>FK_TerritoryID</ID>
+      <Name>FK_TerritoryID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="507183c3-f19d-41a6-8589-b1480a98bca1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc2f37ca-844d-4c6f-a1cb-a9b76517bf86">
+            <TableID>DimStateProvince</TableID>
+            <ColumnID>FK_TerritoryID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

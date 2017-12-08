@@ -1,0 +1,396 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4e19d013-dd0b-47d9-82b9-b268515fd7d0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Task1Model</ID>
+  <Name>Task1Model</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DataWarehouseETL</DataSourceID>
+  <Schema>
+    <xs:schema id="Task1Model" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Task1Model" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e121c999-323c-4529-a74b-faff33f0fa3b" msprop:AllowGen="True">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="DimTerritory" msprop:design-time-name="dfdc8325-e579-4d86-ac41-5a146993ee86" msprop:FriendlyName="DimTerritory" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimTerritory">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimTerritory" msprop:design-time-name="1ae2266a-47c9-49eb-8cd4-8287ee37dd1c" msprop:FriendlyName="PK_DimTerritory" msprop:DbColumnName="PK_DimTerritory" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimTerritory_Name" msprop:design-time-name="f7b3d495-1541-4db0-9dac-30bc225ad0f5" msprop:FriendlyName="DimTerritory_Name" msprop:DbColumnName="DimTerritory_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TerritoryContinent" msprop:design-time-name="6aba3aa5-d843-42e7-a71b-1bb0a3866772" msprop:AllowGen="True" msprop:DbColumnName="TerritoryContinent" msprop:FriendlyName="TerritoryContinent" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TerrytoryName" msprop:design-time-name="a61e982f-03bf-4771-bc79-3671867f16cd" msprop:AllowGen="True" msprop:DbColumnName="TerrytoryName" msprop:FriendlyName="TerrytoryName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimStateProvince" msprop:design-time-name="b2fa5c15-2241-462b-b102-2d992f177504" msprop:FriendlyName="DimStateProvince" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimStateProvince">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimStateProvince" msprop:design-time-name="e8ebb2b7-ff8b-4f23-979a-83fb9bd890a1" msprop:FriendlyName="PK_DimStateProvince" msprop:DbColumnName="PK_DimStateProvince" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimStateProvince_Name" msprop:design-time-name="d371006f-ac0d-45d5-b8a8-4e5ab01defd5" msprop:FriendlyName="StateProvinceName" msprop:DbColumnName="StateProvinceName" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StateProvinceCode" msprop:design-time-name="dd170f8f-6f09-4d5b-b429-e5b03a25d78e" msprop:AllowGen="True" msprop:DbColumnName="StateProvinceCode" msprop:FriendlyName="StateProvinceCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FK_Country" msprop:design-time-name="fb165e09-fd11-4dbb-83d1-74b32b959cd7" msprop:AllowGen="True" msprop:DbColumnName="FK_Country" msprop:FriendlyName="FK_Country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FK_TerritoryID" msprop:design-time-name="64831bcd-85b4-42b8-b19e-62f8b2ca4379" msprop:AllowGen="True" msprop:DbColumnName="FK_TerritoryID" msprop:FriendlyName="FK_TerritoryID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimCountry" msprop:design-time-name="83565cbd-6607-4753-b19e-57e2d077e29f" msprop:FriendlyName="DimCountry" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimCountry">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimCountry" msprop:design-time-name="bdb3fb0f-afcc-46d3-ac97-d7a3c8af405a" msprop:FriendlyName="PK_DimCountry" msprop:DbColumnName="PK_DimCountry" msprop:AllowGen="True">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DimCountry_Name" msprop:design-time-name="4e542ed6-e351-4cf0-acd7-4c8ca56d2ea6" msprop:FriendlyName="CountryName" msprop:DbColumnName="CountryName" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimCity" msprop:design-time-name="e5611f10-5052-4260-b8d6-fcd08b8a1d82" msprop:FriendlyName="DimCity" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimCity">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimCity" msprop:design-time-name="920201ef-a51a-4a7f-9b2d-289482a4c4be" msprop:FriendlyName="PK_DimCity" msprop:DbColumnName="PK_DimCity" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimCity_Name" msprop:design-time-name="49bc82ac-b889-4be1-a9b8-9ca10e25d57c" msprop:FriendlyName="DimCity_Name" msprop:DbColumnName="DimCity_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimCustumer" msprop:design-time-name="e02e504e-ba53-44be-b365-502202ee8e8a" msprop:FriendlyName="DimCustumer" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimCustumer">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimCustumer" msprop:design-time-name="0bd886fc-ee5f-4136-8b5f-d553c6846dce" msprop:FriendlyName="PK_DimCustumer" msprop:DbColumnName="PK_DimCustumer" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimCustumer_Name" msprop:design-time-name="0ab4368e-9841-43d0-8d4a-4b8aae487aba" msprop:FriendlyName="DimCustumer_Name" msprop:DbColumnName="DimCustumer_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimResellers" msprop:design-time-name="71b2d05b-1eb8-440d-83fa-e45fa2569923" msprop:FriendlyName="DimResellers" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimResellers">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimResellers" msprop:design-time-name="b17448e5-9b23-4ef6-8066-04a81a36a314" msprop:FriendlyName="PK_DimResellers" msprop:DbColumnName="PK_DimResellers" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimResellers_Name" msprop:design-time-name="41abae84-0045-4d68-aa87-2553fbb40bec" msprop:FriendlyName="DimResellers_Name" msprop:DbColumnName="DimResellers_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimCategory" msprop:design-time-name="51a430ce-fbea-4e00-b2cc-78f6747f6111" msprop:FriendlyName="DimCategory" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimCategory">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimCategory" msprop:design-time-name="a31535f8-b81f-48ff-92a9-3e8459331212" msprop:FriendlyName="PK_DimCategory" msprop:DbColumnName="PK_DimCategory" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimCategory_Name" msprop:design-time-name="6c28f4cd-5e86-49a0-97eb-0b7a447a47f4" msprop:FriendlyName="DimCategory_Name" msprop:DbColumnName="DimCategory_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimSubCategory" msprop:design-time-name="faece5cc-9f03-4731-9b57-fa98dee1432b" msprop:FriendlyName="DimSubCategory" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimSubCategory">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimSubCategory" msprop:design-time-name="ab48af13-4bae-40b7-8505-3ecc09027e6e" msprop:FriendlyName="PK_DimSubCategory" msprop:DbColumnName="PK_DimSubCategory" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimSubCategory_Name" msprop:design-time-name="57e83ebb-566e-4b8a-9bfb-a269baa3761d" msprop:FriendlyName="DimSubCategory_Name" msprop:DbColumnName="DimSubCategory_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimProduct" msprop:design-time-name="f68e143d-1824-4c77-b4e8-85b8f9feb7fa" msprop:FriendlyName="DimProduct" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimProduct">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimProduct" msprop:design-time-name="8d58d41e-c91e-4b69-8c10-edd295836593" msprop:FriendlyName="PK_DimProduct" msprop:DbColumnName="PK_DimProduct" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimProduct_Name" msprop:design-time-name="e2055218-5fc7-4ca1-ab42-48891739e4aa" msprop:FriendlyName="DimProduct_Name" msprop:DbColumnName="DimProduct_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimSalesPerson" msprop:design-time-name="20b124b6-81f1-434f-9ef8-7250ea8acd63" msprop:FriendlyName="DimSalesPerson" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimSalesPerson">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DimSalesPerson" msprop:design-time-name="faac63ca-8f24-4a56-9b92-45ed9204ad1c" msprop:FriendlyName="PK_DimSalesPerson" msprop:DbColumnName="PK_DimSalesPerson" msprop:AllowGen="True" type="xs:int" />
+                  <xs:element name="DimSalesPerson_Name" msprop:design-time-name="c83ee777-46c1-4078-adeb-ca13804ea094" msprop:FriendlyName="DimSalesPerson_Name" msprop:DbColumnName="DimSalesPerson_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimTime" msprop:design-time-name="75ccca78-7457-47f6-93bd-1791e3e8d62f" msprop:FriendlyName="DimTime" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="DimTime">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date" msprop:design-time-name="4be0b86d-385f-4c2d-aee5-c59b5e7db209" msprop:FriendlyName="PK_Date" msprop:DbColumnName="PK_Date" msprop:AllowGen="True" type="xs:dateTime" />
+                  <xs:element name="Date_Name" msprop:design-time-name="bf6e5fa5-eaed-4db7-9268-05dbdd420a3f" msprop:FriendlyName="Date_Name" msprop:DbColumnName="Date_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:design-time-name="c3c27e70-bd5f-4da7-a6fb-6938dd9933be" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year_Name" msprop:design-time-name="2436dabd-baca-4280-8794-8aa9501aa1ea" msprop:FriendlyName="Year_Name" msprop:DbColumnName="Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:design-time-name="67918fa3-90e5-4186-8dcc-378d20dcef47" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Quarter_Name" msprop:design-time-name="7a38d27a-352d-4b05-b3cc-c4376bbd7505" msprop:FriendlyName="Quarter_Name" msprop:DbColumnName="Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month" msprop:design-time-name="06c4bd7c-3354-4614-a288-58eee713a58a" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Month_Name" msprop:design-time-name="0e4daa4b-d4b0-4828-ac23-9285d8219582" msprop:FriendlyName="Month_Name" msprop:DbColumnName="Month_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Year" msprop:design-time-name="a5b18dff-b058-4fe1-a664-28cd315da27e" msprop:FriendlyName="Day_Of_Year" msprop:DbColumnName="Day_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Year_Name" msprop:design-time-name="939180e4-2986-45ff-b8a0-7ba3f710fc54" msprop:FriendlyName="Day_Of_Year_Name" msprop:DbColumnName="Day_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Quarter" msprop:design-time-name="405fe366-e729-4825-9633-9bedc9b9e981" msprop:FriendlyName="Day_Of_Quarter" msprop:DbColumnName="Day_Of_Quarter" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Quarter_Name" msprop:design-time-name="2c0c08f9-4678-49d6-a62f-224f2b28abab" msprop:FriendlyName="Day_Of_Quarter_Name" msprop:DbColumnName="Day_Of_Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Month" msprop:design-time-name="3662127a-9fd1-44c4-8375-02d2bd929f5e" msprop:FriendlyName="Day_Of_Month" msprop:DbColumnName="Day_Of_Month" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Month_Name" msprop:design-time-name="20cafc9e-14d7-455b-82a1-4b471038e643" msprop:FriendlyName="Day_Of_Month_Name" msprop:DbColumnName="Day_Of_Month_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month_Of_Year" msprop:design-time-name="1f48ce2f-9411-4546-b7bd-af8a84a3cb47" msprop:FriendlyName="Month_Of_Year" msprop:DbColumnName="Month_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_Of_Year_Name" msprop:design-time-name="b8954724-bc2f-466d-91b6-f0464a00cd6a" msprop:FriendlyName="Month_Of_Year_Name" msprop:DbColumnName="Month_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month_Of_Quarter" msprop:design-time-name="ae8f34ac-6634-4524-8fec-eb96ab4607ee" msprop:FriendlyName="Month_Of_Quarter" msprop:DbColumnName="Month_Of_Quarter" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_Of_Quarter_Name" msprop:design-time-name="504d7a23-c3f8-4071-bd2e-38cc560baab0" msprop:FriendlyName="Month_Of_Quarter_Name" msprop:DbColumnName="Month_Of_Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter_Of_Year" msprop:design-time-name="ef5effb4-452c-4dec-93b2-f5b7499bbcc5" msprop:FriendlyName="Quarter_Of_Year" msprop:DbColumnName="Quarter_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Quarter_Of_Year_Name" msprop:design-time-name="bcc8a081-3058-487f-9644-b48fee4de8ed" msprop:FriendlyName="Quarter_Of_Year_Name" msprop:DbColumnName="Quarter_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Fact" msprop:design-time-name="df7c2607-5079-4d68-8426-e6ad051ed428" msprop:FriendlyName="Measure_Group_1" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="Measure_Group_1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FK_DimTime" msprop:design-time-name="f12ecd08-5df8-496c-9f65-e6667a5681b7" msprop:FriendlyName="FK_DimTime" msprop:DbColumnName="FK_DimTime" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="FK_DimSalesPerson" msprop:design-time-name="9ed95893-e942-4078-ae34-18036a5f8df3" msprop:FriendlyName="FK_DimSalesPerson" msprop:DbColumnName="FK_DimSalesPerson" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FK_DimProduct" msprop:design-time-name="74661046-2367-49af-8b90-dac94c5abf8f" msprop:FriendlyName="FK_DimProduct" msprop:DbColumnName="FK_DimProduct" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FK_DimResellers" msprop:design-time-name="01fc1ad4-d8cb-4bac-9354-1807fd721415" msprop:FriendlyName="FK_DimResellers" msprop:DbColumnName="FK_DimResellers" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FK_DimCustumer" msprop:design-time-name="4e6fc7fa-59d2-45b9-b982-d7adc0178423" msprop:FriendlyName="FK_DimCustumer" msprop:DbColumnName="FK_DimCustumer" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FK_DimCity" msprop:design-time-name="332388db-6333-4ad8-8b13-971a9f23e911" msprop:FriendlyName="FK_DimCity" msprop:DbColumnName="FK_DimCity" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FactOrderDate" msprop:design-time-name="3bc9f41b-2b06-4c84-b372-216e4cea5878" msprop:FriendlyName="FactOrderDate" msprop:DbColumnName="FactOrderDate" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="FactStatus" msprop:design-time-name="8a7e94a8-baf4-495c-90c1-83873d6270ed" msprop:FriendlyName="FactStatus" msprop:DbColumnName="FactStatus" msprop:AllowGen="True" type="xs:byte" minOccurs="0" />
+                  <xs:element name="FactOnlineOrderFlag" msprop:design-time-name="3903e1cb-7999-4237-9798-93131ad4e0fd" msprop:FriendlyName="FactOnlineOrderFlag" msprop:DbColumnName="FactOnlineOrderFlag" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="FactOrderQty" msprop:design-time-name="df79ae57-29fa-4de1-b539-f21130c52b5a" msprop:FriendlyName="FactOrderQty" msprop:DbColumnName="FactOrderQty" msprop:AllowGen="True" type="xs:short" minOccurs="0" />
+                  <xs:element name="FactUnitPriceDiscount" msprop:design-time-name="9fbb9ea8-a13b-4b94-ac88-0e5700800e25" msprop:FriendlyName="FactUnitPriceDiscount" msprop:DbColumnName="FactUnitPriceDiscount" msprop:AllowGen="True" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FactLineTotal" msprop:design-time-name="4e50abc5-aebd-4ae8-ad9a-f937b8c9c6b4" msprop:FriendlyName="FactLineTotal" msprop:DbColumnName="FactLineTotal" msprop:AllowGen="True" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FactTaxAmt" msprop:design-time-name="df17e89d-9d1b-4f61-910a-8138ea70ee03" msprop:FriendlyName="FactTaxAmt" msprop:DbColumnName="FactTaxAmt" msprop:AllowGen="True" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FactFreight" msprop:design-time-name="1afe87be-6c81-48de-96fa-f35ce5687122" msprop:FriendlyName="FactFreight" msprop:DbColumnName="FactFreight" msprop:AllowGen="True" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FactTotalDue" msprop:design-time-name="6e24b756-a999-4417-b09d-288dc19df556" msprop:FriendlyName="FactTotalDue" msprop:DbColumnName="FactTotalDue" msprop:AllowGen="True" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="PK_DimTerritory" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimTerritory" />
+          <xs:field xpath="DimTerritory" />
+        </xs:unique>
+        <xs:unique name="PK_DimStateProvince" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimStateProvince" />
+          <xs:field xpath="DimStateProvince" />
+        </xs:unique>
+        <xs:unique name="PK_DimCountry" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimCountry" />
+          <xs:field xpath="DimCountry" />
+        </xs:unique>
+        <xs:unique name="PK_DimCity" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimCity" />
+          <xs:field xpath="DimCity" />
+        </xs:unique>
+        <xs:unique name="PK_DimCustumer" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimCustumer" />
+          <xs:field xpath="DimCustumer" />
+        </xs:unique>
+        <xs:unique name="PK_DimResellers" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimResellers" />
+          <xs:field xpath="DimResellers" />
+        </xs:unique>
+        <xs:unique name="PK_DimCategory" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimCategory" />
+          <xs:field xpath="DimCategory" />
+        </xs:unique>
+        <xs:unique name="PK_DimSubCategory" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimSubCategory" />
+          <xs:field xpath="DimSubCategory" />
+        </xs:unique>
+        <xs:unique name="PK_DimProduct" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimProduct" />
+          <xs:field xpath="DimProduct" />
+        </xs:unique>
+        <xs:unique name="PK_DimSalesPerson" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimSalesPerson" />
+          <xs:field xpath="DimSalesPerson" />
+        </xs:unique>
+        <xs:unique name="PK_DimTime" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//DimTime" />
+          <xs:field xpath="Date" />
+        </xs:unique>
+        <xs:keyref name="Measure_Group_1-DimCity" refer="PK_DimCity" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimCity" />
+        </xs:keyref>
+        <xs:keyref name="Measure_Group_1-DimCustumer" refer="PK_DimCustumer" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimCustumer" />
+        </xs:keyref>
+        <xs:keyref name="Measure_Group_1-DimResellers" refer="PK_DimResellers" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimResellers" />
+        </xs:keyref>
+        <xs:keyref name="Measure_Group_1-DimProduct" refer="PK_DimProduct" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimProduct" />
+        </xs:keyref>
+        <xs:keyref name="Measure_Group_1-DimSalesPerson" refer="PK_DimSalesPerson" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimSalesPerson" />
+        </xs:keyref>
+        <xs:keyref name="Measure_Group_1-DimTime" refer="PK_DimTime" msprop:rel_AllowGen="True">
+          <xs:selector xpath=".//Fact" />
+          <xs:field xpath="FK_DimTime" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Task1Model xmlns="" />
+  </Schema>
+</DataSourceView>
