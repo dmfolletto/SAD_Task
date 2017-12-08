@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PMATOS-SAD0</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs3zdb9Tek2pDRyCfp1UOgAAAAACAAAAAAAQZgAAAAEAACAAAAAptzS9Fte1pW6sJNjOTSFeGZPM5LLprWpEc/pQCz7DkAAAAAAOgAAAAAIAACAAAADiYm5SLUkBWZfqYeNp0JEzsfcP+gsuEfv3MVWElgbkqpAAAABBmsuGC6My7/rDLku9ajw1QCLGVzKPvkXojN/XeZzMx0VKjzCcLWlICgrDBG4X8Cjd+dF1l+BU69SKx2OlgmxOLe8xW5NKQHaYtHOrXV3aQZUfY+J+fgM0355XQkbUbFDoxLf97fhli+kCOPR6jWlK+iLLhtakVe2VRYkjq57pi2miS4wiTgK3wrHAtlm9QlhAAAAADCD2RdheC4+Q5GqmsZCqb8NE5oghGW+UWQfa8cV2okKJ4t+nZ35a6S1Xx2xNDixDOKNBADqXxrKQUcBYFS2QLA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs3zdb9Tek2pDRyCfp1UOgAAAAACAAAAAAAQZgAAAAEAACAAAADdPCY7e4nSQI0TFfB8GdnkokygeDaFBQm4YnFftbxxJgAAAAAOgAAAAAIAACAAAACY0dMYAA940QGFglAkogCJK4d2Qja6qgTVRPWddVqQDZAAAAARusMwnkRUpE3GHsG4kDe6/iIEQswCtugAEy8/1AS8XlssK4BFkwvIssCFlNdhi9X98HRh3N/g4Gv3U0uoufVLgYnxeMu3Rsu25YahIff9C8FCwME0G2WZDXBzWHc2rVtOAIGsRlbFnkZDBOi/uuQ2MCxvg7rcbbtGy1UHgWLd3SVhnN2dn4u8QG69yD4fgllAAAAANhrh5SVDlP8pQICxA4LetP+Oxs3/rUFyaRNyc6ZaT4NuM3dtj84qJmFBxA+ihjMfAL58GnSm8Dt6Rl44kvR41A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -34,6 +34,7 @@
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="PMATOS-SAD0.AdventureWorks20161.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="PMATOS-SAD0.DataWarehouseETL1.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
@@ -125,6 +126,94 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.ConnectionString">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=PMATOS-SAD0;Initial Catalog=DataWarehouseETL;Integrated Security=True;Application Name=SSIS-Task2ETL-{6EA9824F-A4CD-4EF4-9A07-894763453DDF}PMATOS-SAD0.DataWarehouseETL1;</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.InitialCatalog">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">DataWarehouseETL</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.Password">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.RetainSameConnection">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.ServerName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">PMATOS-SAD0</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.DataWarehouseETL1.UserName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
             <SSIS:PackageMetaData SSIS:Name="Task2ETL.dtsx">
@@ -133,10 +222,10 @@
                 <SSIS:Property SSIS:Name="Name">Task2ETL</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C1C8FE50-5D5A-4890-BC7E-034797E9E35C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{73AF6458-0798-4453-A9D3-C6BEB679AF0B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

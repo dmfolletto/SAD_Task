@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1Model", "Task1Model\Task1Model.dwproj", "{2732B1A0-62FD-4042-B94D-F20322B2A48E}"
-EndProject
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2ETL", "Task2ETL\Task2ETL.dtproj", "{41C1A983-CB45-451B-AAC5-20540EAB281A}"
-EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Task1", "Task1\Task1.dwproj", "{772256AE-636B-4A0E-B98C-A06143C25E19}"
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Task2", "Task2\Task2.dtproj", "{96D36218-BD60-4213-905A-5BC44B5A1FEC}"
@@ -16,11 +12,6 @@ Global
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.ActiveCfg = Development
-		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.Build.0 = Development
-		{2732B1A0-62FD-4042-B94D-F20322B2A48E}.Development|Default.Deploy.0 = Development
-		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.ActiveCfg = Development
-		{41C1A983-CB45-451B-AAC5-20540EAB281A}.Development|Default.Build.0 = Development
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.ActiveCfg = Development
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Build.0 = Development
 		{772256AE-636B-4A0E-B98C-A06143C25E19}.Development|Default.Deploy.0 = Development
