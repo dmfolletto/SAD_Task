@@ -85,37 +85,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="76b732e3-0410-4ed9-a496-4c85eb212dfd">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c948329a-32c6-4711-a657-37571086294f">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="8414df0e-1634-488b-928d-5f7d781da1e9">
+    <Attribute dwd:design-time-name="2e341655-976b-4588-87e2-11784b54f9f8">
       <ID>DimTerritory</ID>
       <Name>DimTerritory</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="affd7ac5-4178-40e4-a374-6cb1fc42b5fa">
+        <KeyColumn dwd:design-time-name="95a72808-15b0-487e-8312-9801929a99ce">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b26afbf9-d57f-48fb-8af4-e9ed8941290f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba59ba4b-7f89-459f-902d-14b6a752102f">
             <TableID>DimTerritory</TableID>
             <ColumnID>DimTerritory</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="baa82497-fdd3-49e4-9d26-d8ff5a30d9c7">
+      <NameColumn dwd:design-time-name="e63377fd-29bf-4795-87cf-8dfadc722b39">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="6be7c9ba-04e3-43bc-88d6-82fab13eebab">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="34a6741b-b39f-4074-a6e6-d6cf379f05e5">
           <TableID>DimTerritory</TableID>
           <ColumnID>DimTerritory_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="221f1d40-3357-4de8-8842-e266581bf598">
+        <AttributeRelationship dwd:design-time-name="a7ea80eb-e3da-4663-a688-d75d5b5adee5">
           <AttributeID>TerritoryContinent</AttributeID>
           <Name>TerritoryContinent</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4fa00f78-e362-490d-94f9-d431b35acf6d">
+        <AttributeRelationship dwd:design-time-name="05473a5e-1997-4684-ad26-5bc237729511">
           <AttributeID>Dim Territory Name</AttributeID>
           <Name>TerritoryName</Name>
         </AttributeRelationship>
@@ -123,14 +123,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="16ec1749-ff54-4487-b97d-71ccdb87bc3c">
+    <Attribute dwd:design-time-name="c7bf2c5d-b425-40fa-8b8c-1c985e1042d9">
       <ID>TerritoryContinent</ID>
       <Name>TerritoryContinent</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d22b149f-c5e8-43d6-b249-ad7b0cc41001">
+        <KeyColumn dwd:design-time-name="cf60f304-e7fe-4683-bc2d-50884b41cab2">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fa462355-759b-4bbf-8e23-c812db412b6a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65c41a0c-eceb-4bf8-8c7a-fe591bf9e4d9">
             <TableID>DimTerritory</TableID>
             <ColumnID>TerritoryContinent</ColumnID>
           </Source>
@@ -139,14 +139,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="73684c3b-d7b3-4439-a223-0f9f2d693873">
+    <Attribute dwd:design-time-name="a37c6c04-9613-436c-a938-befe28934602">
       <ID>Dim Territory Name</ID>
       <Name>TerritoryName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b37bf0df-9665-4cd9-98a9-3418ab50c129">
+        <KeyColumn dwd:design-time-name="af20844b-1f4a-4cb2-9732-8bfc2efb5149">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="63697249-f0da-4733-885f-4c4e35eac13a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c410a0d-9377-49f1-b37c-a954780dfe01">
             <TableID>DimTerritory</TableID>
             <ColumnID>TerritoryName</ColumnID>
           </Source>

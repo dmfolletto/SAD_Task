@@ -68,33 +68,33 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="32f6ba73-259c-48b1-b4ec-6e603f480152">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d789afcd-3485-4b03-b1c8-0d342982cbb3">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="baf3def6-ed2f-484c-8b34-84f41b57d052">
+    <Attribute dwd:design-time-name="9f8151c6-5919-4a98-8a9f-0374999f1d8e">
       <ID>DimCategory</ID>
       <Name>DimCategory</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1be17de3-1486-4416-b368-5418ed785cc5">
+        <KeyColumn dwd:design-time-name="58204878-c203-40ba-8bcf-1cec27e1ce0f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c87c3f9-843e-40ea-9fa9-c5692effc3a1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fa77f49-ac28-4743-bbd0-5ca216df935f">
             <TableID>DimCategory</TableID>
             <ColumnID>DimCategory</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="851717b1-bbb0-4b92-b85c-e699111ef3ec">
+      <NameColumn dwd:design-time-name="3c628cb2-52aa-4e71-bb0d-2dfade3abb51">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="27015c5f-31e0-486f-845a-26a85fd835f3">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4d46323d-678d-49b5-980f-f2d51121a50b">
           <TableID>DimCategory</TableID>
           <ColumnID>DimCategory_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="44f6167f-15d9-4ce5-a831-510ccc31b0dc">
+        <AttributeRelationship dwd:design-time-name="9a1b557d-80a6-4a37-89b6-ad340bff5f6c">
           <AttributeID>Dim Category Name</AttributeID>
           <Name>CategoryName</Name>
         </AttributeRelationship>
@@ -102,14 +102,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="af3bc438-9154-4829-8f01-926c5536ae19">
+    <Attribute dwd:design-time-name="13f3bb18-10de-4cdf-8aa9-00bd0a2990d8">
       <ID>Dim Category Name</ID>
       <Name>CategoryName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="742b417c-52fb-4702-ab84-f620c2e0746f">
+        <KeyColumn dwd:design-time-name="f455f9a0-5d70-4d01-aafe-f79432156f65">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="157bfa6c-b873-46a3-a69d-b319a60b7fe3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4208b84b-4ff0-4ce2-aa01-22be3eeaa7b5">
             <TableID>DimCategory</TableID>
             <ColumnID>CategoryName</ColumnID>
           </Source>
