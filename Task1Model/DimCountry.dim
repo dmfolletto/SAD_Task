@@ -68,34 +68,34 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="990418ba-0d9c-426e-981a-214b5ec22c57">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="96c3d2dd-2c9b-4beb-9a1a-11288c9f4e3d">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="77409198-c17a-4ad7-b538-5c088fc30eaa">
+    <Attribute dwd:design-time-name="02f7b225-2b84-4567-a722-a8cc42098412">
       <ID>DimCountry</ID>
       <Name>DimCountry</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ebf570d3-eebf-487c-82ea-3f351196fefb">
+        <KeyColumn dwd:design-time-name="ac85a006-2ffc-445b-bbba-6b4424a00357">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8b1523e1-d234-4d5b-8d02-6fce35a89cd9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="61717e6f-d624-4f9b-9473-87db1be7d9db">
             <TableID>DimCountry</TableID>
             <ColumnID>DimCountry</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="46eb3da6-67d1-4ad8-9a66-a0e0ad119886">
+      <NameColumn dwd:design-time-name="fabe99fb-63ba-4fa5-bfe6-a1e1f6e33e5b">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="51372881-d8f1-4348-8dce-b34dfcef9e18">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c07588a4-3b07-48ed-a927-40132ed0fed2">
           <TableID>DimCountry</TableID>
           <ColumnID>DimCountry_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="54efb06a-0c2c-4b8b-8a1b-2ad83bcbdd58">
+        <AttributeRelationship dwd:design-time-name="0dcf4d4a-877f-4016-91dc-ead015ad06af">
           <AttributeID>Dim Country Name</AttributeID>
           <Name>CountryName</Name>
         </AttributeRelationship>
@@ -103,16 +103,16 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e3bd4ce3-352c-4351-898a-7f30575c2661">
+    <Attribute dwd:design-time-name="1cbfc6c9-9a06-461d-8982-ea267c005259">
       <ID>Dim Country Name</ID>
       <Name>CountryName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2d00c56d-8546-421b-8515-063feab68a31">
+        <KeyColumn dwd:design-time-name="5cbd6834-6452-42f3-93a4-cbe0a5735652">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="322adb05-6e63-467e-a3f4-33c5b7f994ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c476463-5d2b-4522-b8ca-681211ebdd60">
             <TableID>DimCountry</TableID>
-            <ColumnID>DimCountry_Name</ColumnID>
+            <ColumnID>CountryName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

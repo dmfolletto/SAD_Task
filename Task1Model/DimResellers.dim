@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-311" scrolltop="-4432" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="10742" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-311" scrolltop="-4432" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="10742" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimResellers" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimResellers" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000930e000057070000" />
             </control>
@@ -68,33 +68,33 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a82d667f-cad9-411b-80f2-2babd1d26fa7">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9cd447c6-d067-4b4a-a666-fa037c16eaa7">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2cc06117-2313-4c6f-a4a3-b40c8f819385">
+    <Attribute dwd:design-time-name="50c10dc5-6d0c-4df7-9185-ca64ca6769aa">
       <ID>DimResellers</ID>
       <Name>DimResellers</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="df92017c-da1d-4391-ad49-e17f36b9f872">
+        <KeyColumn dwd:design-time-name="d743be68-55b2-4533-9e6c-8c0782aac77b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a43409b5-d0b7-4932-ba72-d2a53db1d8c9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39ee5d3c-fabe-4772-ab1c-21d7a09aeac0">
             <TableID>DimResellers</TableID>
             <ColumnID>DimResellers</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="e63068a5-47d0-4c86-8713-2001db29b456">
+      <NameColumn dwd:design-time-name="2d2bc790-c6b6-416e-bc65-8b61b7e87a96">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="1fd10403-8e65-4d32-9da1-430cb986177f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fa886bcd-35dd-4549-9ac7-21a078db4c31">
           <TableID>DimResellers</TableID>
           <ColumnID>DimResellers_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bf5cd565-2514-4c84-9f87-c5e0f2f36eaf">
+        <AttributeRelationship dwd:design-time-name="a450e707-5f1e-4015-9080-f3233ada8f47">
           <AttributeID>Dim Resellers Name</AttributeID>
           <Name>ResellersStoreName</Name>
         </AttributeRelationship>
@@ -102,16 +102,16 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2a5b502e-61f9-444a-a046-4d02c5ba3050">
+    <Attribute dwd:design-time-name="c6f4ac9f-057c-4b9e-9788-8a488a8bb6d6">
       <ID>Dim Resellers Name</ID>
       <Name>ResellersStoreName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="01d83d7b-3b2c-4f65-b3d9-814d8b2aa4a2">
+        <KeyColumn dwd:design-time-name="5f5c836d-1e3e-45fc-b73e-7b73fc983a58">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1cbc53a3-3079-457b-9f97-94a2661ea663">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="87490035-9529-4347-8b43-c9c2cd2f4893">
             <TableID>DimResellers</TableID>
-            <ColumnID>DimResellers_Name</ColumnID>
+            <ColumnID>ResellersStoreName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-655" scrolltop="-7025" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4392" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-655" scrolltop="-7025" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10478" y="18574" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCity" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3043" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCity" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3043" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000e30b000057070000" />
             </control>
@@ -68,37 +68,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2f495013-58e2-408a-aee5-97d87d64faa7">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="74ac61d6-6656-44a4-a271-930a345d3542">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5930f78d-9f57-4788-9f8a-312a775a1bb4">
+    <Attribute dwd:design-time-name="a845005d-16a5-4f8d-9c49-b55fef909cde">
       <ID>DimCity</ID>
       <Name>DimCity</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="802a0982-6a09-44ae-8541-05870e905609">
+        <KeyColumn dwd:design-time-name="306126c2-ee8e-464c-b68f-78b6a73233e9">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef9d6977-fcae-4150-bcda-90eb0feb4f18">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60cb2565-9d19-4c55-94e8-59d7d073116a">
             <TableID>DimCity</TableID>
             <ColumnID>DimCity</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="56d7cfef-23bf-4c63-a783-b47898dcba38">
+      <NameColumn dwd:design-time-name="c403381c-30b0-4690-bdbc-27389541c5db">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2488ac6d-10c0-47eb-8b02-c2a845491807">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="563654f7-d00b-4f3e-924d-87b9e3a6b388">
           <TableID>DimCity</TableID>
           <ColumnID>DimCity_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="cd44bbdf-7ab3-4e76-b841-6b1e79700edc">
+        <AttributeRelationship dwd:design-time-name="444ac784-0b3a-41c9-9af9-4dbadb5a2e43">
           <AttributeID>Dim City Name</AttributeID>
           <Name>CityName</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3ff8cd7a-cd3a-4362-a032-9820939600b5">
+        <AttributeRelationship dwd:design-time-name="82f9be15-4a25-435f-9272-6924a9fe0125">
           <AttributeID>CityName 1</AttributeID>
           <Name>FK_StateProvince</Name>
         </AttributeRelationship>
@@ -106,29 +106,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="45396a3d-43d9-4f69-b1bd-d098c517c52b">
+    <Attribute dwd:design-time-name="5eba75e0-937a-4408-a887-22deac6ab1ad">
       <ID>Dim City Name</ID>
       <Name>CityName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="87f9db10-a343-40be-889e-025a571f7ba9">
+        <KeyColumn dwd:design-time-name="3ea01438-9fcd-4bf8-8f8e-fa47937efdc8">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="96731ba9-ae4b-404a-ba51-30b25ae49ca4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b319c48-3a26-4a17-b5a8-b2b96dc59d25">
             <TableID>DimCity</TableID>
-            <ColumnID>DimCity_Name</ColumnID>
+            <ColumnID>CityName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="92f64800-566c-4e06-8fd2-fa378c37bd59">
+    <Attribute dwd:design-time-name="72fc5461-4ca4-4d4d-b6c4-95543e6e87ce">
       <ID>CityName 1</ID>
       <Name>FK_StateProvince</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="78f670a0-e301-4488-9e7c-bb0b57e780f8">
+        <KeyColumn dwd:design-time-name="87f9d32c-3a3f-4e5f-841b-0b69d9fba1fb">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5926fb80-c5bd-45b3-b6fd-22f0e7f0a0ea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f95ee6c1-79bb-4f21-8823-d15540f3ce94">
             <TableID>DimCity</TableID>
             <ColumnID>FK_StateProvince</ColumnID>
           </Source>
