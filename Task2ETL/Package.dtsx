@@ -11,8 +11,8 @@
   DTS:LocaleID="2070"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="82"
-  DTS:VersionGUID="{2EBE373A-66BA-437D-A414-FC166D7D5AFB}">
+  DTS:VersionBuild="85"
+  DTS:VersionGUID="{54BD6B75-26A4-4D87-AB56-8EC2BDF6CCAC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1437,7 +1437,7 @@ where [refTable].[AddressID] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\DimCustumer\870:invalid};</property>
+                  name="ParameterMap">#{Package\DimCustumer\826:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3016,7 +3016,7 @@ where [refTable].[BusinessEntityID] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\DimCustumer\871:invalid};</property>
+                  name="ParameterMap">#{Package\DimCustumer\827:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -14214,7 +14214,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="161,42"
           Id="Package\Delete and Insert"
@@ -14268,7 +14268,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="299.25,111">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,67"
               Start="0,0"
               End="0,59.5">
@@ -14290,7 +14290,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="367,202.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="80,0"
               Start="0,0"
               End="72.5,0">
@@ -14312,7 +14312,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="693,567">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-130,0"
               Start="0,0"
               End="-122.5,0">
@@ -14334,7 +14334,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="604,205.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="86,0"
               Start="0,0"
               End="78.5,0">
@@ -14356,7 +14356,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="760.25,226">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,68"
               Start="0,0"
               End="0,60.5">
@@ -14378,7 +14378,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="695,315.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-116,0"
               Start="0,0"
               End="-108.5,0">
@@ -14400,7 +14400,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="445,315.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-61,0"
               Start="0,0"
               End="-53.5,0">
@@ -14422,7 +14422,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="303.75,336">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,90"
               Start="0,0"
               End="0,82.5">
@@ -14444,7 +14444,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="362,448">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="74,0"
               Start="0,0"
               End="66.5,0">
@@ -14466,7 +14466,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="590,450">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="102,0"
               Start="0,0"
               End="94.5,0">
@@ -14488,7 +14488,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="766.75,472">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,73"
               Start="0,0"
               End="0,65.5">
@@ -14512,7 +14512,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimCategory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="157,42"
           Id="Package\DimCategory\ProductCategory"
@@ -14530,7 +14530,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="343,144">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="110,0"
               Start="0,0"
               End="102.5,0">
@@ -14544,7 +14544,9 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14552,7 +14554,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="607,147.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="105,0"
               Start="0,0"
               End="97.5,0">
@@ -14566,7 +14568,9 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14592,7 +14596,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimCity">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179,42"
           Id="Package\DimCity\ADO NET Destination"
@@ -14614,7 +14618,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="356,163">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="64,0"
               Start="0,0"
               End="56.5,0">
@@ -14638,7 +14642,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="574,162">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="75,0"
               Start="0,0"
               End="67.5,0">
@@ -14662,7 +14666,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="196,161">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="62,0"
               Start="0,0"
               End="54.5,0">
@@ -14704,7 +14708,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimCountry">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="134,42"
           Id="Package\DimCountry\DimCountry"
@@ -14718,7 +14722,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="290,58">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="386,0"
               Start="0,0"
               End="378.5,0">
@@ -14760,7 +14764,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimCustumer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="183,42"
           Id="Package\DimCustumer\BusinessEntityAddress"
@@ -14798,7 +14802,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="494.5,211">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="346.5,68"
               Start="0,0"
               End="346.5,60.5">
@@ -14834,7 +14838,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="225.25,317">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,92"
               Start="0,0"
               End="0,84.5">
@@ -14858,7 +14862,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="469,298">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-153,0"
               Start="0,0"
               End="-145.5,0">
@@ -14882,7 +14886,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="783,300">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-129,0"
               Start="0,0"
               End="-121.5,0">
@@ -14906,7 +14910,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="235,188.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="168,0"
               Start="0,0"
               End="160.5,0">
@@ -14930,7 +14934,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="303,429">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="145,0"
               Start="0,0"
               End="137.5,0">
@@ -14944,9 +14948,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14954,7 +14956,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="180.75,110">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,56"
               Start="0,0"
               End="0,48.5">
@@ -14968,9 +14970,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -15111,7 +15111,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimProduct">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="115,42"
           Id="Package\DimProduct\Product"
@@ -15141,7 +15141,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="668,207">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="92,0"
               Start="0,0"
               End="84.5,0">
@@ -15165,7 +15165,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="314.5,242">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="157.5,51"
               Start="0,0"
               End="157.5,43.5">
@@ -15201,7 +15201,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="314.5,200">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="168.5,-69"
               Start="0,0"
               End="168.5,-61.5">
@@ -15237,7 +15237,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="524,293">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="83.5,-65"
               Start="0,0"
               End="83.5,-57.5">
@@ -15273,7 +15273,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="507.333333333333,131">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="100.166666666667,55"
               Start="0,0"
               End="100.166666666667,47.5">
@@ -15309,7 +15309,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="197,218">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="48,0"
               Start="0,0"
               End="40.5,0">
@@ -15374,7 +15374,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimSalesPerson">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="154,42"
           Id="Package\DimSalesPerson\DimSalesPerson"
@@ -15400,7 +15400,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="560,207.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="156,0"
               Start="0,0"
               End="148.5,0">
@@ -15424,7 +15424,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="310,205">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="139,0"
               Start="0,0"
               End="131.5,0">
@@ -15448,7 +15448,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="793.5,231">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,62"
               Start="0,0"
               End="0,54.5">
@@ -15472,7 +15472,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="248,120">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,64"
               Start="0,0"
               End="0,56.5">
@@ -15560,7 +15560,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimStateProvince">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="143,42"
           Id="Package\DimStateProvince\StateProvince"
@@ -15574,7 +15574,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="306,77.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="150,0"
               Start="0,0"
               End="142.5,0">
@@ -15616,7 +15616,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimSubCategory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="157,48"
           Id="Package\DimSubCategory\DimSubCategory"
@@ -15634,7 +15634,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="567,128.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="66,0"
               Start="0,0"
               End="58.5,0">
@@ -15658,7 +15658,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="312,128.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="101,0"
               Start="0,0"
               End="93.5,0">
@@ -15705,7 +15705,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\DimTerritory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="138,42"
           Id="Package\DimTerritory\DimTerritory"
@@ -15723,7 +15723,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="595,268">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="90,0"
               Start="0,0"
               End="82.5,0">
@@ -15747,7 +15747,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="302,264">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="139,0"
               Start="0,0"
               End="131.5,0">
@@ -15789,7 +15789,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\Fact">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="98,42"
           Id="Package\Fact\Sort"
@@ -15847,7 +15847,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="612,149">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,62"
               Start="0,0"
               End="0,54.5">
@@ -15871,7 +15871,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="500,232.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="40,0"
               Start="0,0"
               End="32.5,0">
@@ -15895,7 +15895,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="374.5,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-79.1666666666667,64"
               Start="0,0"
               End="-79.1666666666667,56.5">
@@ -15931,7 +15931,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="179,147">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="75.6666666666667,65"
               Start="0,0"
               End="75.6666666666667,57.5">
@@ -15967,7 +15967,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="679,232">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="93,0"
               Start="0,0"
               End="85.5,0">
@@ -15991,7 +15991,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="340,233">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="53,0"
               Start="0,0"
               End="45.5,0">
@@ -16015,7 +16015,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="1081.75,253">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,111"
               Start="0,0"
               End="0,103.5">
@@ -16039,7 +16039,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="888,232">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="134,0"
               Start="0,0"
               End="126.5,0">
@@ -16063,7 +16063,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="1007,386">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-213,0"
               Start="0,0"
               End="-205.5,0">
@@ -16087,7 +16087,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="614.75,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,40"
               Start="0,0"
               End="0,32.5">
@@ -16111,7 +16111,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="377,63">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,43"
               Start="0,0"
               End="0,35.5">
@@ -16135,7 +16135,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="179.5,60">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,45"
               Start="0,0"
               End="0,37.5">
@@ -16239,7 +16239,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
     design-time-name="Package\Resellers(Store)">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="104,42"
           Id="Package\Resellers(Store)\Store"
@@ -16253,7 +16253,7 @@ where [refTable].[CityName] = ? and [refTable].[FK_StateProvince] = ?</property>
           TopLeft="186.25,94">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,63"
               Start="0,0"
               End="0,55.5">
