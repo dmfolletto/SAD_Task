@@ -68,37 +68,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="21cdcf05-f575-4347-9930-01a8eafc4625">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a2b001e8-efbe-4b86-a4cd-a4c5c9dbc1c7">
     <DataSourceViewID>Task1Model</DataSourceViewID>
   </Source>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a9453c38-9bd4-4469-a7bf-d5bcd1c52425">
+    <Attribute dwd:design-time-name="ab8220fd-a1ac-4bd2-999b-0bdb45d26c8e">
       <ID>DimCity</ID>
       <Name>DimCity</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7fc30659-9f2f-424b-910d-9296863e348e">
+        <KeyColumn dwd:design-time-name="0fc56540-c27e-412c-9d1a-1cb83c0e7503">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e8424fe-0a6a-43cc-be58-488809b1c629">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82115c90-940f-4d83-bb85-170bc051686c">
             <TableID>DimCity</TableID>
             <ColumnID>DimCity</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="766cc7e0-b165-41b0-a177-daee30ef80d5">
+      <NameColumn dwd:design-time-name="1cbc979c-9912-40fe-9b80-38def30cc7e2">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c712be7c-bad9-4db4-bd94-bca9217c608f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="98a19143-d2e9-4192-a58f-d32911546fd8">
           <TableID>DimCity</TableID>
           <ColumnID>DimCity_Name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="3520e429-d6c3-498d-878e-5733d6d50178">
+        <AttributeRelationship dwd:design-time-name="e414d9f9-b42f-451c-96bd-54928d5c19ba">
           <AttributeID>Dim City Name</AttributeID>
           <Name>CityName</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="61bf57de-b59a-4ea9-96c1-ea1bb3bdabb8">
+        <AttributeRelationship dwd:design-time-name="5f612254-d9bc-4c8d-bc47-2e14d84308d8">
           <AttributeID>CityName 1</AttributeID>
           <Name>FK_StateProvince</Name>
         </AttributeRelationship>
@@ -106,14 +106,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="901725b0-f31c-4b16-96e3-68aa171be282">
+    <Attribute dwd:design-time-name="d3ec50ea-d6f6-4f4b-979f-540468cef8ca">
       <ID>Dim City Name</ID>
       <Name>CityName</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="362261b4-05f6-418e-b0ed-d5b9fedcef7d">
+        <KeyColumn dwd:design-time-name="7b299f09-22c2-42d6-9db5-6d498a3c8dd0">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b0b40bc-59ab-4907-bcc5-cd11e73c683b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac5b893b-1b21-4928-899a-83454b8e739a">
             <TableID>DimCity</TableID>
             <ColumnID>DimCity_Name</ColumnID>
           </Source>
@@ -122,13 +122,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="617482fd-bbfc-4d0c-976d-c8aa0aa26f77">
+    <Attribute dwd:design-time-name="dc4fa05b-fa8a-4fea-9930-1f3933485395">
       <ID>CityName 1</ID>
       <Name>FK_StateProvince</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="68b48b2d-ed8b-46b0-ad53-4993d223df92">
+        <KeyColumn dwd:design-time-name="abc529ea-f053-4dae-a33f-4abc61bb04b5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4963a4f8-8f01-4d58-910d-7e2c17c6db0c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4189b20f-e320-4914-99c9-05af090c1788">
             <TableID>DimCity</TableID>
             <ColumnID>FK_StateProvince</ColumnID>
           </Source>
