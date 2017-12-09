@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PMATOS-SAD0</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs3zdb9Tek2pDRyCfp1UOgAAAAACAAAAAAAQZgAAAAEAACAAAADdPCY7e4nSQI0TFfB8GdnkokygeDaFBQm4YnFftbxxJgAAAAAOgAAAAAIAACAAAACY0dMYAA940QGFglAkogCJK4d2Qja6qgTVRPWddVqQDZAAAAARusMwnkRUpE3GHsG4kDe6/iIEQswCtugAEy8/1AS8XlssK4BFkwvIssCFlNdhi9X98HRh3N/g4Gv3U0uoufVLgYnxeMu3Rsu25YahIff9C8FCwME0G2WZDXBzWHc2rVtOAIGsRlbFnkZDBOi/uuQ2MCxvg7rcbbtGy1UHgWLd3SVhnN2dn4u8QG69yD4fgllAAAAANhrh5SVDlP8pQICxA4LetP+Oxs3/rUFyaRNyc6ZaT4NuM3dtj84qJmFBxA+ihjMfAL58GnSm8Dt6Rl44kvR41A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzs3zdb9Tek2pDRyCfp1UOgAAAAACAAAAAAAQZgAAAAEAACAAAADVNtYkpzUY4Vr5B5glBNhlvAJeEhRWRD7VktA9ywn03gAAAAAOgAAAAAIAACAAAAD9271D6fDeS67XfjJ5qpVshJwzAEd45qWG/etsTzuB5ZAAAAAalbXE5HK9C7uVbUtXfEoVb7mR7Z4MfxD5HwXOyrr3DlOgC4K75oSNVF/FmTTIITMdYXpRC/ZV1aBrL+oLXjeTdFOn7bZyuvagABVSw18ijHo8XwyI22TuaFobe72vukUg4Cy66Pdn5o0FeZmBziiFh+ti7JhTJrcGozDZzQUSNxIOkMgEcCBXrZrvYDK04qBAAAAAo6cbvz9ZT6eSdgB34etjpB9Y2qhEUAQnVXpWeRIzMLJtXwEVj9tQ+ybhVzR5Dt/Fx3XiG7YrdiTYz1+KOQMsag==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -222,16 +222,30 @@
                 <SSIS:Property SSIS:Name="Name">Task2ETL</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{73AF6458-0798-4453-A9D3-C6BEB679AF0B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4660BC8E-45D2-41E8-8757-AED6D1F35D47}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CityIDTeste">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{E657C90F-D307-4CDC-9704-D860D83CE303}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.PMATOS-SAD0.AdventureWorks2016 1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
